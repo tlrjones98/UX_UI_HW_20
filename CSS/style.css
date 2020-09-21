@@ -1,13 +1,65 @@
+@font-face {font-family: Lobster; src: url(../images/Lobster-Regular.ttf);}
 .jumbotron-fluid{
     background-image: url(../images/Hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
     padding-bottom: 20px;
     font-family: lobster, 40;
     height: 700px;
 }
 .ml-3{
     height: 200px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.researchImg{
+    display: flex;
+    flex-direction: column;
 }
 .mr-3{
     height: 260px;
-    width: 260px
+    width: 260px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.navbar-nav > li{
+    padding-left:240px;
+    padding-right:240px;
+    font-family: lobster;
+    font-size: x-large;
+  }
+h1{
+    font-family: lobster;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 50px;
+}
+.paragraph{
+    text-indent: 50px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+h2{
+    font-family: lobster;
+    font-size:large;
+    margin-left: auto;
+}
+.team{
+    border-bottom: solid;
+}
+.research{
+    border-bottom: solid;
+}
+.iteration{
+    border-bottom: solid;
+}
+.proImg{
+    height: 200px;
+    width: 200px;
+
 }
