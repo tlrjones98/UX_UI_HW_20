@@ -1,0 +1,13 @@
+.jumbotron-fluid{
+    background-image: url(../images/Hero.png);
+    padding-bottom: 20px;
+    font-family: lobster, 40;
+    height: 700px;
+}
+.ml-3{
+    height: 200px;
+}
+.mr-3{
+    height: 260px;
+    width: 260px
+}
